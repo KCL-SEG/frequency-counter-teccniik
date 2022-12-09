@@ -3,7 +3,7 @@ def frequencies(items):
     # Your code goes here
     for item in items:
         item = str(item)
-        if item not in items:
+        if item not in frequencies:
             frequencies[item] = 1
         else:
             frequencies[item] += 1
